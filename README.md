@@ -1,4 +1,4 @@
 ConflictMachineLearningTest
 ===========================
 
-Test case of machine learning and conflict prediction.
+Final working files for the test case of machine learning and conflict prediction
