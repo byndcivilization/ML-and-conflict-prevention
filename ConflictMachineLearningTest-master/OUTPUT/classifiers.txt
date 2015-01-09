@@ -1,0 +1,27 @@
+[1] "dummy"
+
+Call:
+ randomForest(x = x.train[, 1:36], y = y.train[, 2], ntree = 100,      importance = TRUE, keep.forest = TRUE) 
+               Type of random forest: classification
+                     Number of trees: 100
+No. of variables tried at each split: 6
+
+        OOB estimate of  error rate: 1.16%
+Confusion matrix:
+       0   1 class.error
+0 324106 502 0.001546481
+1   3312 613 0.843821656
+[1] "--------------------------------------"
+[1] ""
+[1] ""
+[1] ""
+[1] "battles"
+
+Call:
+ randomForest(x = x.train[, 1:36], y = y.train[, 1], ntree = 100,      importance = TRUE, keep.forest = TRUE) 
+               Type of random forest: regression
+                     Number of trees: 100
+No. of variables tried at each split: 12
+
+          Mean of squared residuals: 0.9705178
+                    % Var explained: 26.09
